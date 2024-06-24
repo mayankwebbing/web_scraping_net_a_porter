@@ -52,15 +52,19 @@ This project is a web scraping tool designed to collect information about dresse
 ## Project Structure
 
 ```
-dress-url-scraper/
+web_scraping_net_a_porter/
 │
 ├── dresses/               # Folder where the scraped data will be saved
 │   ├── dresses_data1.csv
 │   ├── dresses_data2.csv
 │   └── ... 
 │
-├── export_dresses_url.py             # Main script for web scraping
-├── README.md              # Project readme file
+├── export_dresses_url.py        # Main script for web scraping
+├── build_image_data.py          # Script for generating image data
+├── combine_dresses_data.py      # Script for combining multiple csv files
+├── extract_images.py            # Old script for scraping images information
+├── README.md                    # Project readme file
+├── LICENSE                      # Project readme file
 ```
 
 ## Contributing

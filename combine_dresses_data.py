@@ -1,3 +1,7 @@
+"""
+This script merges multiple CSV files from a specified folder into a single file named 'combine_file.csv'.
+"""
+
 import pandas as pd
 import os
 

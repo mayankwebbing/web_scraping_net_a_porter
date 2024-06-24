@@ -1,3 +1,19 @@
+"""
+export_dresses_url.py
+
+This script scrapes dress data from the https://www.net-a-porter.com/ website, extracting details such as brand, name, price, URLs, and image links for each dress. The data is then saved into separate CSV files for each page. The script includes implicit waits, scrolling to load lazy-loading elements, and error handling to ensure smooth data extraction.
+
+Usage:
+    python export_dresses_url.py
+
+Features:
+    - Extracts product details including brand, name, price, URLs, and image links.
+    - Handles lazy loading by scrolling to the bottom of the page.
+    - Includes error handling for missing elements.
+    - Saves the scraped data into CSV files in the 'dresses' folder.
+
+"""
+
 from selenium import webdriver
 from selenium.common.exceptions import *
 from selenium.webdriver.common.by import By
